@@ -1,0 +1,16 @@
+// projedeki tüm dosyaların derlenmesi için kullanılan TypeScript yapılandırma dosyasıdır.
+  // Bu dosya, Angular uygulamasının derlenmesi sırasında kullanılacak ayarları belirler.
+  // Hedef JavaScript sürümü, modül sistemi ve diğer derleyici seçeneklerini
+  // içerir. Ayrıca, uygulamanın hangi dosyaları içereceğini ve
+  // hangi dosyaların hariç tutulacağını da belirtir.
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "lib": ["es2022", "dom"],
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

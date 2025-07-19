@@ -1,0 +1,22 @@
+// Bu dosya Angular uygulamasının yapılandırma dosyasıdır.
+// Hedef javascript sürümü, modül sistemi ve diğer derleyici seçeneklerini içerir.
+// Bu dosya, uygulamanın derlenmesi sırasında kullanılacak ayarları belirler.
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [],
+    "lib": ["es2022", "dom"]  // hangi javascript kütüphanelerinin kullanılacağını belirtir.
+  },
+  "files": [],
+  "include": [
+    "src/**/*.d.ts",
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
+  ]
+}
